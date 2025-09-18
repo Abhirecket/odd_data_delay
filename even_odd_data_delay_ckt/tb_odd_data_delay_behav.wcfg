@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_odd_data_delay_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_odd_data_delay" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="135.001 ns"></ZoomEndTime>
+      <Cursor1Time time="135.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="136"></NameColumnWidth>
+      <ValueColumnWidth column_width="187"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tb_odd_data_delay/DUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_odd_data_delay/DUT/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_odd_data_delay/DUT/din" type="array">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_odd_data_delay/DUT/dout" type="array">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_odd_data_delay/DUT/dout_q" type="array">
+      <obj_property name="ElementShortName">dout_q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_q[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_odd_data_delay/DUT/mux" type="array">
+      <obj_property name="ElementShortName">mux[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mux[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_odd_data_delay/DUT/ping_w" type="logic">
+      <obj_property name="ElementShortName">ping_w</obj_property>
+      <obj_property name="ObjectShortName">ping_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_odd_data_delay/DUT/ping_q" type="logic">
+      <obj_property name="ElementShortName">ping_q</obj_property>
+      <obj_property name="ObjectShortName">ping_q</obj_property>
+   </wvobject>
+</wave_config>

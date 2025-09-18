@@ -1,0 +1,4 @@
+Running: xsim.dir/tb_odd_data_delay_behav/xsimk.exe -simmode gui -wdb tb_odd_data_delay_behav.wdb -simrunnum 0 -socket 50602
+Design successfully loaded
+Design Loading Memory Usage: 9424 KB (Peak: 9424 KB)
+Design Loading CPU Usage: 0 ms
